@@ -71,7 +71,6 @@ venv\Scripts\activate
 #### 3) Install dependencies
 ```bash
 pip install boto3
-pip install numpy
 ```
 
 #### (Optional) If you use a named profile:
