@@ -2,7 +2,7 @@
 
 This repo contains a simple Python script that demonstrates how **Retrieval-Augmented Generation (RAG)** works using Amazon Bedrock.
 
-If you’ve ever wondered how AI can “look up” information instead of guessing — this is the smallest possible working example.
+If you’ve ever wondered how AI can “look up” information instead of guessing - this is the smallest possible working example.
 
 It follows the same three steps used in real-world AI systems:
 
@@ -30,7 +30,7 @@ The retrieved sentences are formatted into a structured context block.
 #### 3. Generate
 The context and original question are sent to the text model, which produces a human-readable answer.
 
-This is the exact same pattern used in production RAG systems — just scaled down to make the logic easy to understand.
+This is the exact same pattern used in production RAG systems - just scaled down to make the logic easy to understand.
 
 ---
 
