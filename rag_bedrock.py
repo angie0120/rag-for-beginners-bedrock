@@ -15,7 +15,7 @@ docs = [
     "The wizard studies cloud patterns.",
 ]
 
-question = "Is the library big or small?"
+question = "What does the wizard study?"
 
 def embed(text: str) -> list[float]:
     resp = br.invoke_model(
@@ -47,4 +47,5 @@ resp = br.converse(
 
 print("Top matches:", top)
 print("Answer:", resp["output"]["message"]["content"][0]["text"])
+
 
