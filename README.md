@@ -15,7 +15,7 @@ It follows the same three steps used in real-world AI systems:
 - Using Amazon Titan Embeddings to represent meaning as vectors
 - Ranking documents using cosine similarity
 - Formatting retrieved results into context (Augment step)
-- SSending context + question to Amazon Nova for answer generation
+- Sending context + question to Amazon Nova for answer generation
 - Enforcing grounded responses with a system instruction (the model answers only using the provided context or says “I don’t know.”)
 
 ---
