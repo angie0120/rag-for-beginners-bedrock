@@ -6,7 +6,7 @@ If you’ve ever wondered how AI can “look up” information instead of guessi
 
 It follows the same three steps used in real-world AI systems:
 
-**Retrieve → Augment → Generate**
+> **Retrieve → Augment → Generate**
 
 --- 
 
@@ -20,7 +20,7 @@ It follows the same three steps used in real-world AI systems:
 
 ---
 
-### AHow Tiny RAG Works
+### How tiny RAG works
 
 #### 1. Retrieve
 The question and documents are embedded and ranked by similarity.
