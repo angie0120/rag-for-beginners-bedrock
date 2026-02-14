@@ -97,7 +97,7 @@ python rag_bedrock.py
 
 #### Q1: What does the wizard study?
 
-The system retrieves two sentences that mention the wizard, but only one actually answers the question.
+The system retrieves two sentences that mention the wizard, but **only one** actually answers the question.
 
 ![Wizard Question Output](screenshots/q1-wizard.png)
 
@@ -122,9 +122,10 @@ The system responds with: "I don't know. The context does not provide informatio
 
 Although the system retrieved information about what’s in the library, there was no mention about its size.
 
-Since that information wasn’t in the context, the model didn’t guess. Instead it said, ‘I don’t know.’
+Since that information wasn’t in the context, the model didn’t guess. Instead it said, **‘I don’t know.’**
 
-That’s exactly what we want.
+**That’s exactly what we want.**
+
 RAG helps reduce hallucinations by answering only when the context supports it instead of confidently making something up.
 
 ![Library Size Question Output](screenshots/q3-library-size.png)
